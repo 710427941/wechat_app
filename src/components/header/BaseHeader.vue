@@ -1,8 +1,8 @@
 <template>
   <header class="header">
-    <router-link tag="div" to="/login">
+    <div @click="goback">
       <i>&#xe6b7;</i>
-    </router-link>
+    </div>
     <slot name="title"></slot>
     <slot name="icon"></slot>
   </header>
@@ -10,13 +10,18 @@
 
 <script>
 export default {
-  name: 'base-header'
+  name: 'base-header',
+  methods: {
+    goback() {
+      this.$router.go(-1)
+    }
+  }
 }
 </script>
 
 <style scoped lang="less">
-  @import "../assets/less/variable";
-  @import "../assets/less/icon";
+  @import "../../assets/less/variable";
+  @import "../../assets/less/icon";
   .header{
     height: 44px;
     background-color: @bg-4fbb0e;

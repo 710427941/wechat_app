@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import UserHeader from 'components/UserHeader'
+  import UserHeader from 'components/header/UserHeader'
   export default {
     name: 'home',
     components: {

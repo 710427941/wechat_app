@@ -8,7 +8,7 @@ Vue.use(LoadingPlugin, ToastPlugin, ConfirmPlugin)
 
 // 创建Axios实例
 const service = Axios.create({
-  baseURL: 'http://192.168.0.100:8080/api/', // api的base_url
+  baseURL: 'http://171.212.138.145:12315/api/', // api的base_url
   timeout: 15000 // 请求超时时间
 })
 

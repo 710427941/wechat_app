@@ -21,8 +21,8 @@
 </script>
 
 <style scoped lang="less">
-  @import "../assets/less/variable";
-  @import "../assets/less/mixin";
+  @import "../../assets/less/variable";
+  @import "../../assets/less/mixin";
 
   .header{
     width: 100%;

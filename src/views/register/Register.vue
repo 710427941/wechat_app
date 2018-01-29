@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import BaseHeader from 'components/BaseHeader.vue'
+import BaseHeader from 'components/header/BaseHeader.vue'
 import { Toast } from 'vux'
 import { register } from 'api/register'
 import md5 from 'js-md5'

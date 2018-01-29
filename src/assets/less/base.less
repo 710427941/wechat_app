@@ -1,9 +1,21 @@
 @import "variable";
 
-body, html,#app{
+body, html, #app {
   font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
   user-select: none;
   -webkit-tap-highlight-color: transparent;
   background-color: @fff;
   height: 100%;
+}
+
+.box {
+  position: fixed;
+  width: 100%;
+  top: 200px;
+  bottom: 0;
+}
+
+.content {
+  height: 100%;
+  overflow: hidden;
 }

@@ -113,7 +113,7 @@ module.exports = {
     'no-native-reassign': 2,
     'no-negated-in-lhs': 2,
     'no-new-object': 2,
-    'no-new-require': 2,
+    'no-new-require': 0,
     'no-new-symbol': 2,
     'no-new-wrappers': 2,
     'no-obj-calls': 2,

@@ -24,6 +24,11 @@ const constantRouterMap = [
       { path: '/userList', component: _import('user/UserList'), name: '列表' },
       { path: '/userInfo', component: _import('user/UserInfo'), name: '信息' }
     ]
+  },
+  {
+    path: '/numberInfo/:uid',
+    component: _import('user/NumberInfo'),
+    name: '用户信息'
   }
 ]
 
